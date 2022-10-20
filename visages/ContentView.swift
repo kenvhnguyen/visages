@@ -10,15 +10,13 @@ import SwiftUI
 struct ContentView: View {
     let zoomed: CGFloat = 400
     let scrolled = Axis.Set.horizontal
-    let url = "https://s3.amazonaws.com/criterion-production/films/3617f85843446f8f78cc7ef44941a4c6/85USK613thTL36zAFZ4x1HtUfOG9NB_large.jpg"
+    let url = "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg"
     let urls = [
         "https://s3.amazonaws.com/criterion-production/films/3617f85843446f8f78cc7ef44941a4c6/85USK613thTL36zAFZ4x1HtUfOG9NB_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/587c8a3258addd59d3aa60ab4ab9e56b/zsEuDiXVAiOpAnXK08QtV7PfqZGbfX_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/1461a0f7c135c79d89c6b20be956acaf/5WLjJmxnJwyZDlSormyyidLLosShkT_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/323c56a13b44f5ded3b7b0117a6dc08d/o7l2a4KSto1HXIf7DxvRcPVn2sMRvl_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/aacbf709cba74e607ae657b7ea6ff1cf/2jsGvFmN8GvcK82SeP32fOu0YpUx1i_large.jpg",
-//        "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg",
-        
     ]
     var body: some View {
         
@@ -68,9 +66,10 @@ struct ImageTile: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var url = "https://s3.amazonaws.com/criterion-production/films/3617f85843446f8f78cc7ef44941a4c6/85USK613thTL36zAFZ4x1HtUfOG9NB_large.jpg"
+    static var url = "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg"
     static var previews: some View {
         ContentView()
+        ImageTile(url: url)
         ZoomableImageTile(url: url)
     }
 }

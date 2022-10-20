@@ -3,6 +3,7 @@
 //  visages
 //
 //  Created by Hoang Nguyen on 10/20/22.
+//  Used https://medium.com/@priya_talreja/pinch-zoom-pan-image-and-double-tap-to-zoom-image-in-swiftui-878ca70c539d
 //
 
 import SwiftUI

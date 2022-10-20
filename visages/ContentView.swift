@@ -35,7 +35,7 @@ struct ContentView: View {
         "https://s3.amazonaws.com/criterion-production/films/ea84da2f72396fc583c54892b92a5f10/4pVQR8QuPFQdZsErceEzrLlaCI48EL_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/8968996394900a7ff0de5a53d03ac392/mCvLwTDCAXEVyMHp4om3piFvSm2nzL_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/dc6376f090e305a122db1a855a025892/5i7NGnwsubXRYF6luLdSi6iC9ICn5O_large.jpg",
-        "https://s3.amazonaws.com/criterion-production/product_images/1870-5a6520ad0e1ed82975741e5dc99398ee/IyksRpVlka6l82AmIoRPWIKAeL97Ya_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/e19847dc2f6f1689e5970ef13e094ea9/Mf9UMErynympJPguOrU1pChuPtgBJ5_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/b415e7735c3b593f2fb714c2c6831a26/So0yJBlzFXZG1ganHAXLtpJPhBnmg4_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/c1cb7c7c93760075005158d586b67d45/ace3Y8tk9zZ6RU58hIflxVsxZUIA2B_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/85ebb0e5781f605179432d071eb3b340/Ayry8QwcAWWRZhyaMkSpzG3TSZ9JoJ_large.jpg",

@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
-    @State var score: Int = 100
+    @State var score: Int = 130
     
     var body: some View {
         
@@ -59,6 +59,7 @@ struct ImageTile: View {
         AsyncImage(url: URL(string: url)) { image in
             image.resizable()
                 .scaledToFit()
+//            print(Date().formatted() + " - Logged from View ImageTile: retrieve image: " + url)
         } placeholder: {
             ProgressView()
         }
@@ -104,7 +105,7 @@ struct IntSlider: View {
     var body: some View {
         VStack{
             Slider(value: intProxy , in: 10...400, step: 40, onEditingChanged: {_ in
-                print(score.description)
+                print(Date().formatted() + " - Logged from View IntSlider: " + score.description)
             })
             .accentColor(.gray)
         }

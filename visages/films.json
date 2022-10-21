@@ -35,7 +35,50 @@
         "wiki": "link"
     },
     
-    
+    {
+        "title": "Ghost World"
+        "country": "United States"
+        "year": "2001"
+        "director": "Terry Zwigoff"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/54ba78d05a5da9a47a96bbcac128d1ba/kzelSbUjTPsbUO1Tkw6tYxPx5c94Lt_large.jpg"
+        "extra": "https://www.criterion.com/films/28687-ghost-world"
+        "imdb": "https://www.imdb.com/title/tt0162346/"
+        "wiki": "https://en.wikipedia.org/wiki/Ghost_World_(film)"
+    },
+    {
+        "title": "Happy Together"
+        "country": "Hong Kong"
+        "year": "1997"
+        "director": "Wong Kar Wai"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/81ef481109f28b174cecd1f09f60f10e/FmyfMaLrIQDW9kTOTYscF9EwNqnXwW_large.jpg"
+        "extra": "https://www.criterion.com/films/28843-happy-together"
+        "imdb": "https://www.imdb.com/title/tt0118845/"
+        "wiki": "https://en.wikipedia.org/wiki/Happy_Together_(1997_film)"
+    },
+    {
+        "title": "The Game"
+        "country": "United States"
+        "year": "1997"
+        "director": "David Fincher"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/693744d52bb74cb5166725421bb473e6/d121BfwKuez4Xs7tpGnThzfqDXpCgK_large.jpg"
+        "extra": "https://www.criterion.com/films/28058-the-game"
+        "imdb": "https://www.imdb.com/title/tt0119174/"
+        "wiki": "https://en.wikipedia.org/wiki/The_Game_(1997_film)"
+    },
+    {
+        "title": "Brazil"
+        "country": "United Kingdom"
+        "year": "1985"
+        "director": "Terry Giliam"
+        "seen": true
+        "visage": "link"
+        "extra": "https://www.criterion.com/films/211-brazil"
+        "imdb": "https://www.imdb.com/title/tt0088846/"
+        "wiki": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+    },
     {
         "title": "The Great Dictator"
         "country": "United States"

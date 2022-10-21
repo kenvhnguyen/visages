@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    let scales: [CGFloat] = [10, 20, 30, 40, 50, 80, 100, 150, 200, 300, 400]
-    let scaled: CGFloat = 100
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
     @State var score: Int = 100
@@ -100,16 +98,15 @@ struct IntSlider: View {
             return Double(score)
         }, set: {
             //rounds the double to an Int
-            print($0.description)
             score = Int($0)
         })
     }
     var body: some View {
         VStack{
-            //Text(score.description)
             Slider(value: intProxy , in: 10...400, step: 40, onEditingChanged: {_ in
                 print(score.description)
             })
+            .accentColor(.gray)
         }
     }
 }

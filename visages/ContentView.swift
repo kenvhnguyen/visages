@@ -52,7 +52,7 @@ struct ZoomableImageTile: View {
             } placeholder: {
                 ProgressView()
             }
-        }
+        }.frame(height: 500)
     }
 }
 

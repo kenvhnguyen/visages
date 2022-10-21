@@ -36,6 +36,17 @@
     },
     
     {
+        "title": "In a Lonely Place"
+        "country": "United States"
+        "year": "1950"
+        "director": "Nicholas Ray"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/df93d59f964f578be1c4ed9db26df611/LHDGeFoUAUtHamDnXwv012TKgg62mL_large.jpg"
+        "extra": "https://www.criterion.com/films/27908-in-a-lonely-place"
+        "imdb": "https://www.imdb.com/title/tt0042593/"
+        "wiki": "https://en.wikipedia.org/wiki/In_a_Lonely_Place"
+    },
+    {
         "title": "The Tree of Life"
         "country": "United States"
         "year": "2011"

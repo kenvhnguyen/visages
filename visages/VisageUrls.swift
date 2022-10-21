@@ -9,6 +9,12 @@ import Foundation
 
 class VisageUrls {
     var urls = [
+        "https://s3.amazonaws.com/criterion-production/films/4465e85d9b83346a84976bdae16c2cb9/kncSHt6Pxm1wjWODxnozz5Nj8BbDqi_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/0ff25308283a42cb89949523be052d2a/vXGRSHfxnPK2QJWGktLO8RGaEpvP1H_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/0a9d8cafec1031c98436007b77553d6f/8RnJTFRJr7Ho5oNBlduI3C9erCpY1t_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/d1e2ba30b364ffc12fe3df0444446f74/eZcn64qtLp6iyb6dgTe4ef9iYSvCsb_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/982571dae8ebca5af9f1a1d2757b90fa/uOXeswAxDn2Ua5It0skccwApkGd9B6_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/7dc949416ad00cd22a48dca569e5324e/k1cKiOeNtfh2R2jfqrxSMCOiuW3uwG_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/4769edd08606508fb82f823c778297f4/6EpySxomWsrT7vfmRGVtFhIvfBDFva_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/50601e2e6d31f2758588c3375c856abe/Mij0GgpVEQDG55eQGe1juUCJWRmy9f_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/b64d8d6785c12ae24b029f8b625c3c1a/PMLyOniHrRG3nyansZSwJxghltbxsC_large.jpg",

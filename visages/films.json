@@ -20,5 +20,55 @@
         "extra": "https://www.criterionchannel.com/the-seventh-continent"
         "imdb": "https://www.imdb.com/title/tt0098327/"
         "wiki": "https://en.wikipedia.org/wiki/The_Seventh_Continent_(1989_film)"
+    },
+    
+    
+    {
+        "title": "Name"
+        "country": "Name"
+        "year": "1234"
+        "director": "Name"
+        "seen": true
+        "visage": "link"
+        "extra": "link"
+        "imdb": "link"
+        "wiki": "link"
+    },
+    
+    
+    {
+        "title": "The Great Dictator"
+        "country": "United States"
+        "year": "1940"
+        "director": "Charlie Chaplin"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/0ff25308283a42cb89949523be052d2a/vXGRSHfxnPK2QJWGktLO8RGaEpvP1H_large.jpg"
+        "extra": "https://www.criterion.com/films/27605-the-great-dictator"
+        "imdb": "https://www.imdb.com/title/tt0032553/"
+        "wiki": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+    },
+    
+    {
+        "title": "Dr. Strangelove, or: How I Learned to Stop Worrying and Love the Bomb"
+        "country": "United States, United Kingdom"
+        "year": "1964"
+        "director": "Stanley Kubrick"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/0a9d8cafec1031c98436007b77553d6f/8RnJTFRJr7Ho5oNBlduI3C9erCpY1t_large.jpg"
+        "extra": "https://www.criterion.com/films/28822-dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb"
+        "imdb": "https://www.imdb.com/title/tt0057012/"
+        "wiki": "https://en.wikipedia.org/wiki/Dr._Strangelove"
+    },
+    
+    {
+        "title": "Weekend"
+        "country": "United Kingdom"
+        "year": "2011"
+        "director": "Andrew Haigh"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/d1e2ba30b364ffc12fe3df0444446f74/eZcn64qtLp6iyb6dgTe4ef9iYSvCsb_large.jpg"
+        "extra": "https://www.criterionchannel.com/weekend-1"
+        "imdb": "https://www.imdb.com/title/tt1714210/"
+        "wiki": "https://en.wikipedia.org/wiki/Weekend_(2011_film)"
     }
 ]

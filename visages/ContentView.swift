@@ -10,14 +10,15 @@ import SwiftUI
 struct ContentView: View {
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
-    @State var score: Int = 130
+    //@State var score: Int = 130
+    @State var currentValue = 90.0
     
     var body: some View {
         
         VStack {
             NavigationView {
                 ScrollView(scrolled) {
-                    LazyHGrid(rows: [GridItem(.adaptive(minimum: CGFloat(score)))]
+                    LazyHGrid(rows: [GridItem(.adaptive(minimum: CGFloat(currentValue)))]
                               //, spacing: 100
                     ) {
                         ForEach(urls, id: \.self) { url in
@@ -29,7 +30,9 @@ struct ContentView: View {
                     }
                 }
             }
-            IntSlider(score: $score)
+            CustomSlider(value: $currentValue)
+            .frame(width:350, height:10)
+            //IntSlider(score: $score)
         }
 
     }
@@ -120,6 +123,6 @@ struct ContentView_Previews: PreviewProvider {
         ImageTile(url: url)
         ZoomableImageTile(url: url)
         Plaque(url: url)
-        IntSlider(score: $score)
+        //IntSlider(score: $score)
     }
 }

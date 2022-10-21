@@ -9,6 +9,7 @@ import Foundation
 
 class VisageUrls {
     var urls = [
+        "https://s3.amazonaws.com/criterion-production/films/4f11e54b98be18331fac83cc2f5e38da/OzG6BN23qL1kXhOnhBESXJrBnzRJSK_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/54ba78d05a5da9a47a96bbcac128d1ba/kzelSbUjTPsbUO1Tkw6tYxPx5c94Lt_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/81ef481109f28b174cecd1f09f60f10e/FmyfMaLrIQDW9kTOTYscF9EwNqnXwW_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/693744d52bb74cb5166725421bb473e6/d121BfwKuez4Xs7tpGnThzfqDXpCgK_large.jpg",

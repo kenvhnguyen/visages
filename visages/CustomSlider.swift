@@ -50,7 +50,7 @@ struct CustomSlider: View {
 }
 
 struct CustomSliderView_Previews: PreviewProvider {
-    @State static private var currentValue = 6.0
+    @State static private var currentValue = 60.0
     static var previews: some View {
         CustomSlider(value: $currentValue)
         .frame(width:300, height:10)

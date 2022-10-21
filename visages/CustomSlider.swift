@@ -3,7 +3,7 @@
 //  visages
 //
 //  Created by Hoang Nguyen on 10/21/22.
-//  Learnt from https://swdevnotes.com/swift/2021/how-to-customise-the-slider-in-swiftui/
+//  Used https://swdevnotes.com/swift/2021/how-to-customise-the-slider-in-swiftui/
 //
 
 import SwiftUI

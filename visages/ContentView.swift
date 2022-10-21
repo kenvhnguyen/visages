@@ -12,13 +12,14 @@ struct ContentView: View {
     let scaled: CGFloat = 100
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
+    @State var score: Int = 100
     
     var body: some View {
         
         VStack {
             NavigationView {
                 ScrollView(scrolled) {
-                    LazyHGrid(rows: [GridItem(.adaptive(minimum: scaled))]
+                    LazyHGrid(rows: [GridItem(.adaptive(minimum: CGFloat(score)))]
                               //, spacing: 100
                     ) {
                         ForEach(urls, id: \.self) { url in
@@ -30,7 +31,7 @@ struct ContentView: View {
                     }
                 }
             }
-            IntSlider(score: 10)
+            IntSlider(score: $score)
         }
 
     }
@@ -92,7 +93,7 @@ struct Plaque: View {
 }
 
 struct IntSlider: View {
-    @State var score: Int = 10
+    @Binding var score: Int
     var intProxy: Binding<Double>{
         Binding<Double>(get: {
             //returns the score as a Double
@@ -121,6 +122,6 @@ struct ContentView_Previews: PreviewProvider {
         ImageTile(url: url)
         ZoomableImageTile(url: url)
         Plaque(url: url)
-        IntSlider(score: score)
+        IntSlider(score: $score)
     }
 }

@@ -12,7 +12,6 @@ struct ContentView: View {
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
     @State var score: Int = 90
-    //@State var currentValue = 90.0
     
     var body: some View {
         
@@ -31,8 +30,6 @@ struct ContentView: View {
                     }
                 }
             }
-//            CustomSlider(value: $currentValue)
-//            .frame(width:350, height:10)
             IntSlider(score: $score)
         }
 
@@ -71,29 +68,7 @@ struct ImageTile: View {
     }
 }
 
-struct Plaque: View {
-    var url = "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg"
-    var body: some View {
-        
-        AsyncImage(
-            url: URL(string: url),
-            content: { image in
-                ZStack {
-                    image.resizable().scaledToFit()
-                    VStack {
-                        //Rectangle().size(width: 30, height: 100).opacity(0.1)
-                        Image(systemName: "moon")
-                        //Spacer()
-                        Rectangle().size(width: 30, height: 200).opacity(0.5)
-                        //Spacer()
-                    }
-                }
-            },
-            placeholder: { ProgressView() }
-        )
-        
-    }
-}
+
 
 struct IntSlider: View {
     @Binding var score: Int
@@ -123,7 +98,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
         ImageTile(url: url)
         ZoomableImageTile(url: url)
-        Plaque(url: url)
         IntSlider(score: $score)
     }
 }

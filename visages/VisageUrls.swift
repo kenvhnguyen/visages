@@ -11,6 +11,7 @@ class VisageUrls {
     var urls = [
         "https://s3.amazonaws.com/criterion-production/films/c126e740e2cd8e2b6b0afb978b5bb682/MDaHjtEQ067gqCshZnNA0TcSXNpVOx_large.jpg",
         
+        "https://s3.amazonaws.com/criterion-production/films/2a684a78d6b7c2e6aabb3341e08f0cf4/49RLuNCJcOFrAKVB1w00pKqmEQmXOs_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/ae964fa20bb91adfa032029752a438b2/YD5wS8ZsUGNe6Mrl3BssVAE2rhTuEW_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/c834dedcc911ec34cb90bdefd315542e/nqPw4QXPXZp3mgcIFcvR9BL0mW2obB_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/53b12b4865b46a7cc4964aa6a109dbed/rRvNvlw8t9cJqmYwraVhUKILW0nMOl_large.jpg",

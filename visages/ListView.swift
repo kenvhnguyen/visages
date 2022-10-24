@@ -14,11 +14,16 @@ struct ListView: View {
             ForEach(loadedData.visages) {visage in
                 HStack {
                     ImageTile(url: visage.visage)
-                        .frame(width: 50, height: 50)
-                    Text(visage.title)
+                        .frame(width: 70, height: 70)
+                    VStack(alignment:.leading) {
+                        Text(visage.title).font(.system(size: 20)).lineLimit(1)
+                        Text(visage.director).font(.system(size: 15))
+                        Text(visage.year).font(.system(size: 10))
+                        Text(visage.country).font(.system(size: 12))
+                    }
                 }
             }
-        }
+        }.listStyle(.insetGrouped)
     }
 }
 

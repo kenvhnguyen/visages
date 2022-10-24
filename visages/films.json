@@ -35,8 +35,8 @@
     
     
     {
-        "title": "Name",
-        "country": "Name",
+        "title": "Title",
+        "country": "Country",
         "year": "1234",
         "director": "Name",
         "seen": true,

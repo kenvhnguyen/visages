@@ -11,7 +11,7 @@ import SwiftUI
 struct visagesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }

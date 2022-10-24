@@ -24,7 +24,6 @@ struct ImageTile: View {
 struct NetworkImageView_Previews: PreviewProvider {
     static var url = "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg"
     static var previews: some View {
-        ContentView()
         ImageTile(url: url)
     }
 }

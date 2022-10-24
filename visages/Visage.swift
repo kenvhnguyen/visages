@@ -13,6 +13,7 @@ struct Visage: Identifiable, Codable {
         case country
         case year
         case director
+        case seen
         case visage
         case extra
         case imdb
@@ -25,6 +26,7 @@ struct Visage: Identifiable, Codable {
     let country: String
     let year: String
     let director: String
+    let seen: Bool
     let visage: String
     let extra: String
     let imdb: String

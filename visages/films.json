@@ -39,7 +39,7 @@
         "country": "Country",
         "year": "1234",
         "director": "Name",
-        "seen": true,
+        "seen": false,
         "visage": "https://cdn.posteritati.com/posters/000/000/060/465/fitzcarraldo-md-web.jpg",
         "extra": "link",
         "imdb": "link",

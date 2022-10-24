@@ -1,5 +1,16 @@
 [
     {
+        "title": "After Life"
+        "country": "Japan"
+        "year": "1998"
+        "director": "Hirokazu Kore-eda"
+        "seen": true
+        "visage": "https://s3.amazonaws.com/criterion-production/films/c126e740e2cd8e2b6b0afb978b5bb682/MDaHjtEQ067gqCshZnNA0TcSXNpVOx_large.jpg"
+        "extra": "https://www.criterion.com/films/29081-after-life"
+        "imdb": "https://www.imdb.com/title/tt0165078/"
+        "wiki": "https://en.wikipedia.org/wiki/After_Life_(film)"
+    },
+    {
         "title": "The Asphalt Jungle"
         "country": "United States"
         "year": "1950"
@@ -34,6 +45,7 @@
         "imdb": "link"
         "wiki": "link"
     },
+    
     
     {
         "title": "In a Lonely Place"

@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import CachedAsyncImage
 
 struct ImageTile: View {
     var url: String
     var body: some View {
-        AsyncImage(url: URL(string: url)) { image in
+        CachedAsyncImage(url: URL(string: url)) { image in
             image.resizable()
                 .scaledToFit()
 //            print(Date().formatted() + " - Logged from View ImageTile: retrieve image: " + url)

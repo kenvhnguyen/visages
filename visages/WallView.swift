@@ -10,7 +10,7 @@ import SwiftUI
 struct WallView: View {
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
-    @State var score: Int = 90
+    @State var score: Int = 40
     var body: some View {
         VStack {
             NavigationView {

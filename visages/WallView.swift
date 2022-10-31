@@ -10,7 +10,7 @@ import SwiftUI
 struct WallView: View {
     let scrolled = Axis.Set.horizontal
     let urls = VisageUrls().urls
-    @State var score: Int = 40
+    @State var score: Int = 130
     var body: some View {
         VStack {
             NavigationView {
@@ -19,15 +19,13 @@ struct WallView: View {
                               //, spacing: 100
                     ) {
                         ForEach(urls, id: \.self) { url in
-                            NavigationLink(
-                                destination: ZoomableImageTile(url: url),
-                                label: { ImageTile(url: url) }
-                            )
+                            ImageTile(url: url)
                         }
                     }
                 }
             }
-            IntSlider(score: $score)
+            IntSlider(range: $score)
+                .padding()
         }
     }
 }

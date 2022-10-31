@@ -8,20 +8,21 @@
 import SwiftUI
 
 struct IntSlider: View {
-    @Binding var score: Int
+    @Binding var range: Int
+    
     var intProxy: Binding<Double>{
         Binding<Double>(get: {
             //returns the score as a Double
-            return Double(score)
+            return Double(range)
         }, set: {
             //rounds the double to an Int
-            score = Int($0)
+            range = Int($0)
         })
     }
     var body: some View {
         VStack{
             Slider(value: intProxy , in: 10...400, step: 40, onEditingChanged: {_ in
-                print(Date().formatted() + " - Logged from View IntSlider: " + score.description)
+                print(Date().formatted() + " - Logged from View IntSlider: " + range.description)
             })
             .accentColor(.gray)
         }
@@ -29,8 +30,8 @@ struct IntSlider: View {
 }
 
 struct IntSliderView_Previews: PreviewProvider {
-    @State static var score: Int = 10
+    @State static var range: Int = 10
     static var previews: some View {
-        IntSlider(score: $score)
+        IntSlider(range: $range)
     }
 }

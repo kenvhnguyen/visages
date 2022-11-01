@@ -12,20 +12,19 @@ struct WallView: View {
     let urls = VisageUrls().urls
     @State var score: Int = 130
     var body: some View {
-        VStack {
-            NavigationView {
-                ScrollView(scrolled) {
-                    LazyHGrid(rows: [GridItem(.adaptive(minimum: CGFloat(score)))]
-                              //, spacing: 100
-                    ) {
-                        ForEach(urls, id: \.self) { url in
-                            ImageTile(url: url)
-                        }
+        ZStack {
+            ScrollView(scrolled) {
+                LazyHGrid(rows: [GridItem(.adaptive(minimum: CGFloat(score)))]
+                          //, spacing: 100
+                ) {
+                    ForEach(urls, id: \.self) { url in
+                        ImageTile(url: url)
                     }
                 }
-            }
+            }.frame(height: 950)
             IntSlider(range: $score)
                 .padding()
+                .opacity(0.1)
         }
     }
 }

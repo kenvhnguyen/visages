@@ -21,7 +21,7 @@ struct IntSlider: View {
     }
     var body: some View {
         VStack{
-            Slider(value: intProxy , in: 10...400, step: 40, onEditingChanged: {_ in
+            Slider(value: intProxy , in: 10...500, step: 40, onEditingChanged: {_ in
                 print(Date().formatted() + " - Logged from View IntSlider: " + range.description)
             })
             .accentColor(.gray)

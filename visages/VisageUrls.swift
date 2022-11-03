@@ -7,8 +7,10 @@
 
 import Foundation
 
-class VisageUrls {
-    var urls = [
+class VisageUrls : ObservableObject {
+    @Published var urls = [
+        "https://s3.amazonaws.com/criterion-production/films/3ab3e39d4fbbf677631b93028f6045ea/uKI5bkkhVMW2pC5keD0U3WaykHKvqW_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/6fb38dd82b9187c02eefe787d4b50a26/6Sih2y6NRUfuPxa5MOSpbNEim3ydUM_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/78923bc7cdf6f313c2f69c4869e41bcd/jjWhLAVSs3yMPTCWDB7eRonBYK68Rv_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/f50d7a7d8ec2588c4bd6e4db00a8120f/jgAIXDTNR403btDmNLF1s6QJ7VILif_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/5df5a988519a21f6f8902cb68a50fad2/PNke8tz8SXjbs27HUThiZYSvYcNnnm_large.jpg",
@@ -43,6 +45,7 @@ class VisageUrls {
         "https://s3.amazonaws.com/criterion-production/films/2f448c30ac7b06febb22d66b5ff974a7/IbyM57yhe0Whunlq0YhnaVhNeqD9Hi_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/0d4a92b3c7f846f4ab4b202fd3fc6973/mje5UAVt8hzxxB3sY11YZ53LfXNcxo_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/79fce60ff33a0a5a182a1c03b0fe7346/J7vkEqKtfdDSxMOSVtkbmUI1XW6gK7_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/a406cf1876f68e821e1242b31b72c5de/STItnM0YCOhRjkbk50fCGHlj4gjjci_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/1f597146f3b839ef4db1a723d16b0e33/idUm9r72QpdtWLq5FaUa4rXfC68W65_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/84aeeb09b2dfd01727a6f204c00524cb/ndLCgU0hBuRjtJ6gwLBm2qIkl1e8RS_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/289eee85492838ff64671c24d63e631a/bqzpSsBVIkScl3o7Ae7hxmJ8ZubMnE_large.jpg",

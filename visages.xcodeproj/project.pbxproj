@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B740760229126F4C00D81833 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740760129126F4C00D81833 /* ContextMenu.swift */; };
 		B77553622901CC8C00495914 /* visagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77553612901CC8C00495914 /* visagesApp.swift */; };
 		B77553642901CC8C00495914 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77553632901CC8C00495914 /* ContentView.swift */; };
 		B77553662901CC9100495914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77553652901CC9100495914 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B740760129126F4C00D81833 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		B775535E2901CC8C00495914 /* visages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77553612901CC8C00495914 /* visagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visagesApp.swift; sourceTree = "<group>"; };
 		B77553632901CC8C00495914 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				B7A7B68B290715AD002C4263 /* Zoomable.swift */,
 				B7A7B68D2907162E002C4263 /* SimpleSlider.swift */,
 				B7A7B68F290716C7002C4263 /* NetworkImage.swift */,
+				B740760129126F4C00D81833 /* ContextMenu.swift */,
 			);
 			path = visages;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				B7A7B68C290715AD002C4263 /* Zoomable.swift in Sources */,
 				B7A7B6862906D6D7002C4263 /* Visage.swift in Sources */,
 				B7A7B68E2907162E002C4263 /* SimpleSlider.swift in Sources */,
+				B740760229126F4C00D81833 /* ContextMenu.swift in Sources */,
 				B77553642901CC8C00495914 /* ContentView.swift in Sources */,
 				B77553622901CC8C00495914 /* visagesApp.swift in Sources */,
 				B77553702901E1D400495914 /* ImageModifier.swift in Sources */,

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B708B4D6291B0B8100834CEE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B4D5291B0B8100834CEE /* Movie.swift */; };
+		B708B4D8291B140A00834CEE /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B4D7291B140A00834CEE /* MovieList.swift */; };
+		B708B4DA291B1E2F00834CEE /* ImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B4D9291B1E2F00834CEE /* ImageUrl.swift */; };
+		B708B4DC291B209200834CEE /* PhotoWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B4DB291B209200834CEE /* PhotoWall.swift */; };
 		B740760229126F4C00D81833 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740760129126F4C00D81833 /* ContextMenu.swift */; };
 		B77553622901CC8C00495914 /* visagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77553612901CC8C00495914 /* visagesApp.swift */; };
 		B77553642901CC8C00495914 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77553632901CC8C00495914 /* ContentView.swift */; };
@@ -26,9 +30,14 @@
 		B7A7B68E2907162E002C4263 /* SimpleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7B68D2907162E002C4263 /* SimpleSlider.swift */; };
 		B7A7B690290716C7002C4263 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7B68F290716C7002C4263 /* NetworkImage.swift */; };
 		B7A9ED9129090ED6008A1B62 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = B7A9ED9029090ED6008A1B62 /* CachedAsyncImage */; };
+		B7AAEDEA291B920B00093936 /* ImageUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAEDE9291B920B00093936 /* ImageUrls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B708B4D5291B0B8100834CEE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B708B4D7291B140A00834CEE /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		B708B4D9291B1E2F00834CEE /* ImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrl.swift; sourceTree = "<group>"; };
+		B708B4DB291B209200834CEE /* PhotoWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWall.swift; sourceTree = "<group>"; };
 		B740760129126F4C00D81833 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		B775535E2901CC8C00495914 /* visages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77553612901CC8C00495914 /* visagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visagesApp.swift; sourceTree = "<group>"; };
@@ -48,6 +57,7 @@
 		B7A7B68B290715AD002C4263 /* Zoomable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoomable.swift; sourceTree = "<group>"; };
 		B7A7B68D2907162E002C4263 /* SimpleSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSlider.swift; sourceTree = "<group>"; };
 		B7A7B68F290716C7002C4263 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		B7AAEDE9291B920B00093936 /* ImageUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 				B7A7B68D2907162E002C4263 /* SimpleSlider.swift */,
 				B7A7B68F290716C7002C4263 /* NetworkImage.swift */,
 				B740760129126F4C00D81833 /* ContextMenu.swift */,
+				B708B4D5291B0B8100834CEE /* Movie.swift */,
+				B708B4D7291B140A00834CEE /* MovieList.swift */,
+				B708B4D9291B1E2F00834CEE /* ImageUrl.swift */,
+				B708B4DB291B209200834CEE /* PhotoWall.swift */,
+				B7AAEDE9291B920B00093936 /* ImageUrls.swift */,
 			);
 			path = visages;
 			sourceTree = "<group>";
@@ -192,15 +207,20 @@
 				B77553742902674B00495914 /* VisageUrls.swift in Sources */,
 				B7A7B6882906DDF8002C4263 /* ListView.swift in Sources */,
 				B7A7B6802906A892002C4263 /* DVDPlayer.swift in Sources */,
+				B708B4D8291B140A00834CEE /* MovieList.swift in Sources */,
 				B7A7B68A290714F0002C4263 /* WallView.swift in Sources */,
 				B7A7B67E2902CDEC002C4263 /* CustomSlider.swift in Sources */,
+				B7AAEDEA291B920B00093936 /* ImageUrls.swift in Sources */,
+				B708B4D6291B0B8100834CEE /* Movie.swift in Sources */,
 				B7A7B690290716C7002C4263 /* NetworkImage.swift in Sources */,
 				B7A7B68C290715AD002C4263 /* Zoomable.swift in Sources */,
 				B7A7B6862906D6D7002C4263 /* Visage.swift in Sources */,
 				B7A7B68E2907162E002C4263 /* SimpleSlider.swift in Sources */,
 				B740760229126F4C00D81833 /* ContextMenu.swift in Sources */,
+				B708B4DC291B209200834CEE /* PhotoWall.swift in Sources */,
 				B77553642901CC8C00495914 /* ContentView.swift in Sources */,
 				B77553622901CC8C00495914 /* visagesApp.swift in Sources */,
+				B708B4DA291B1E2F00834CEE /* ImageUrl.swift in Sources */,
 				B77553702901E1D400495914 /* ImageModifier.swift in Sources */,
 				B7A7B6822906AA81002C4263 /* MockCover.swift in Sources */,
 			);

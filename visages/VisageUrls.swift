@@ -9,6 +9,9 @@ import Foundation
 
 class VisageUrls : ObservableObject {
     @Published var urls = [
+        "https://s3.amazonaws.com/criterion-production/films/1c5fca8c40bb66746852edac6075a4c4/bfd4HXVR74XrJEepgJMYmJRi7zvIv7_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/07f4eeb745b2223e67ad82c6dc2e3ed3/o6c4ES95CWTBBINB8ahqL4niihMuLT_large.jpg",
+        "https://s3.amazonaws.com/criterion-production/films/cd4ae6bdbaea9fd9c9aff1d69f924bc4/5wErYoFwVfkciAfnpRbFIhPqv7tIC5_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/3ab3e39d4fbbf677631b93028f6045ea/uKI5bkkhVMW2pC5keD0U3WaykHKvqW_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/6fb38dd82b9187c02eefe787d4b50a26/6Sih2y6NRUfuPxa5MOSpbNEim3ydUM_large.jpg",
         "https://s3.amazonaws.com/criterion-production/films/78923bc7cdf6f313c2f69c4869e41bcd/jjWhLAVSs3yMPTCWDB7eRonBYK68Rv_large.jpg",

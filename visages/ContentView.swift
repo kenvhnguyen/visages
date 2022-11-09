@@ -11,19 +11,19 @@ import AVKit
 struct ContentView: View {
     var body: some View {
         TabView {
-            ListView()
+            MovieList()
                 .badge(2)
                 .tabItem {
                     Label("All", systemImage: "tray.and.arrow.down.fill")
                 }
-            WallView()
+            PhotoWall()
                 .tabItem {
                     Label("Seen", systemImage: "tray.and.arrow.up.fill")
                 }
-            MockCover()
+            WallView()
                 .badge("!")
                 .tabItem {
-                    Label("Mock", systemImage: "person.crop.circle.fill")
+                    Label("Store", systemImage: "person.crop.circle.fill")
                 }
         }
         .accentColor(.primary)

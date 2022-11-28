@@ -13,6 +13,8 @@ struct WallView: View {
     @State var score: Int = 130
     @State var presentPopup = false
     @State var newUrl: String = ""
+    @State var visible = true
+    @State var visibility = 0.3
     var body: some View {
         ZStack {
             ScrollView(scrolled) {
@@ -27,15 +29,23 @@ struct WallView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
             VStack {
-                Spacer()
+                Button(action: {
+                    visible = !visible
+                    if visible == true {
+                        visibility = 0.3
+                    } else {
+                        visibility = 0.0
+                    }
+                }) {
+                    ButtonAppearance(opaque: visibility, text: " + Add New")
+                }
                 IntSlider(range: $score)
                     .padding()
-                .opacity(0.1)
-                Spacer()
+                .opacity(visibility)
                 Button(action: {
                   presentPopup = true
                 }) {
-                    ButtonAppearance(text: " + Add New")
+                    ButtonAppearance(opaque: visibility, text: " + Add New")
                 }
                 .popover(isPresented: $presentPopup, arrowEdge: .bottom) {
                     VStack {
@@ -47,7 +57,7 @@ struct WallView: View {
                                 newUrl = ""
                                 presentPopup = false
                             }) {
-                                ButtonAppearance(text: " Cancel ")
+                                ButtonAppearance(opaque: 0.3, text: " Cancel ")
                             }
                             Button(action: {
                                 if (all.urls.contains(newUrl)) {
@@ -58,7 +68,7 @@ struct WallView: View {
                                     newUrl = ""
                                 }
                             }) {
-                                ButtonAppearance(text: "  Insert  ")
+                                ButtonAppearance(opaque: 0.3, text: "  Insert  ")
                             }
                         }
                     }
@@ -69,6 +79,7 @@ struct WallView: View {
 }
 
 struct ButtonAppearance: View {
+    var opaque: Double
     var text: String
     var body: some View {
         Text(text)
@@ -78,7 +89,7 @@ struct ButtonAppearance: View {
             .overlay(
                 Capsule(style: .continuous)
                     .stroke(.black, lineWidth: 2)
-            ).opacity(0.3)
+            ).opacity(opaque)
     }
 }
 

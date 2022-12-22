@@ -16,6 +16,7 @@ struct PhotoWall: View {
     @State var newUrl: String = ""
     @State var visible = true
     @State var visibility = 0.1
+    @State var showActionSheet = false
     var body: some View {
         ZStack {
             ScrollView(scrolled) {
@@ -23,7 +24,30 @@ struct PhotoWall: View {
                           //, spacing: 100
                 ) {
                     ForEach(imageUrls.storedUrls, id: \.self) { url in
-                        ImageTile(url: url.imageUrl)
+                        ZStack {
+                            Button(action: {
+                                showActionSheet = visible
+                            }) {
+                                ImageTile(url: url.imageUrl)
+                                .actionSheet(isPresented: $showActionSheet) {
+                                    ActionSheet(
+                                        title: Text("Actions"),
+                                        message: Text("Available actions"),
+                                        buttons: [
+                                            .cancel { print(self.showActionSheet) },
+                                            .default(Text("Action")),
+                                            .destructive(Text("Delete")) {
+                                                withAnimation { () -> () in
+                                                    let idx = imageUrls.storedUrls.firstIndex(of: url)
+                                                    imageUrls.storedUrls.remove(at: idx!)
+                                                    imageUrls.saveImageUrls()
+                                                }
+                                            }
+                                        ]
+                                    )
+                                }
+                           }
+                        }
                     }
                 }
             }
